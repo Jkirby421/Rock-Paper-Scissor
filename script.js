@@ -67,9 +67,11 @@ function getComputerChoice(){
             loseCount++;
             roundCounter++;  
         }
-        else{
-        console.log("tie");
+        else if (round === "tie"){
         continue;
+        }
+        else{
+            console.log("Please enter a valid option");
         }
         }
         roundcounter = 0;
