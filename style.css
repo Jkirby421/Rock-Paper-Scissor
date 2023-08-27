@@ -1,0 +1,11 @@
+/*.tie::after {
+   content: "TIE!"
+};
+
+/*.win::after {
+    content: "You Win!"
+};
+
+.lose::after {
+    content: "You Lose :("
+};*/
